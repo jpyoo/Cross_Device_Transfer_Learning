@@ -1,0 +1,20 @@
+# Example configuration for the MLP baseline.
+# These mirror the command-line defaults; edit and pass values explicitly.
+data_dir: data/Solovev
+geometries: [NSTX, ITER, D3D0, D3D1, ITER_REACTOR]
+epochs: 150
+batch_size: 32
+lr: 1.0e-3
+weight_decay: 1.0e-5
+decay_steps: 10
+decay_rate: 0.5
+patience: 50
+width: 128
+depth: 4
+n_train: 1000
+n_test: 200
+subsample: 2
+grid_size: 64
+data_seed: 100
+seed: 0
+out: results/mlp_baseline.csv

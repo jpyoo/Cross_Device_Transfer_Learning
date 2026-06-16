@@ -1,0 +1,3 @@
+# Spatio-Spectral Graph Neural Operator (Sp2GNO) only
+torch-geometric>=2.3
+networkx>=3.0

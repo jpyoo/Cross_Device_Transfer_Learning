@@ -1,0 +1,11 @@
+# Core training + evaluation (operators and MLP baseline)
+torch>=2.0
+numpy>=1.23
+scipy>=1.10
+scikit-learn>=1.2
+matplotlib>=3.6
+tqdm>=4.64
+# Wavelet operator transforms
+PyWavelets>=1.4
+ptwt>=0.1.8
+pytorch-wavelets>=1.3.0
